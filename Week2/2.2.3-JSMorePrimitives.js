@@ -1,9 +1,9 @@
 // Create a variable "timeOfDay" and assign it a string
-const timeOfDay = "morning";
+let timeOfDay = "morning";
 
 // Create a variable "greeting" that references a template literal
 // Use "timeOfDay" in the template literal to create a message like "Good morning!" or "Good evening!"
-const greeting = `Good ${timeOfDay}!`;
+let greeting = `Good ${timeOfDay}!`;
 
 // Print "greeting"
 console.log(greeting);
